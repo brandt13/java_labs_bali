@@ -15,4 +15,17 @@ package part_01;
 
 public class Exercise_11 {
 
+    public static void main(String[] args) {
+
+    int bornPerYear = (60/6)*60*24*365;
+    int diePerYear = (60/12)*60*24*365;
+    int immigratesPerYear = (60*60*24*365)/40;
+
+    int pop = 380123456;
+    int futurePop = pop + (bornPerYear*3) - (diePerYear*3) + (immigratesPerYear*3);
+
+
+        System.out.println("The U.S. population in three years will be " + futurePop);
+
+    }
 }

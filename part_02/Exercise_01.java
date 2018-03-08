@@ -16,5 +16,23 @@ import java.util.Scanner;
 
 public class Exercise_01 {
 
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println();
+        System.out.print("Enter the temperature in Celcius and I'll convert it to Fahrenheit: " );
+
+        double celcius = scanner.nextDouble();
+        double fahr = 9 * (celcius/5) + 32;
+
+        System.out.println();
+        System.out.println("The temperature in fahrenheit is " + fahr);
+
+
+
+
+    }
+
 
 }

@@ -14,5 +14,17 @@ public class Exercise_05 {
 
     public static void main(String[] strings) {
 
+        int[] hey = new int[5];
+
+        for (int i = 0; i < 5; i++){
+
+            hey[i] = i;
+        }
+
+        for (int print : hey){
+
+            System.out.print(print + " ");
+        }
+
     }
 }

@@ -16,5 +16,18 @@ public class Exercise_03 {
 
     public static void main(String[] strings) {
 
+        int arr[][] = new int[5][10];
+
+        for (int i = 0; i < 5; i++)
+            for (int j = 0; j < 10; j++)
+                arr[i][j] = i*10+j;
+
+
+        for (int i = 0; i < 5; i++) {
+            System.out.println();
+            for (int j = 0; j < 10; j++) {
+                System.out.print(arr[i][j] + " ");
+            }
+        }
     }
 }

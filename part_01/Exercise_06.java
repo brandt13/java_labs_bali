@@ -11,4 +11,13 @@ package part_01;
 
 public class Exercise_06 {
 
+    public static void main(String[] args) {
+
+
+        int yeah = 1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17;
+
+        System.out.println();
+        System.out.println(yeah);
+
+    }
 }

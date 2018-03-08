@@ -1,4 +1,4 @@
-package part_03;
+package part_03.exercise1;
 
 /**
   Write 3 classes. These classes can reside in the same file for ease and clarity.
@@ -12,3 +12,4 @@ package part_03;
   sports teams, trees, beers, people and so on.
 
  **/
+

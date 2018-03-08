@@ -31,6 +31,23 @@ class Exercise_03 {
 
         String monthName = "";
 
+        switch (month){
+
+            case 1: monthName = "   Jan"; break;
+            case 2: monthName = "   Feb"; break;
+            case 3: monthName = "   Mar"; break;
+            case 4: monthName = "   Apr"; break;
+            case 5: monthName = "   May"; break;
+            case 6: monthName = "   Jun"; break;
+            case 7: monthName = "   Jul"; break;
+            case 8: monthName = "   Aug"; break;
+            case 9: monthName = "   Sep"; break;
+            case 10: monthName = "  Oct"; break;
+            case 11: monthName = "  Nov"; break;
+            case 12: monthName = "  Dec"; break;
+        }
+
+
         // use a switch statement to determine the name of the month
         // for instance if the random int is 1 the name of month is January
 

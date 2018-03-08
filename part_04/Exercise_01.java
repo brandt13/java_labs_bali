@@ -3,6 +3,7 @@ package part_04;
 import org.jcp.xml.dsig.internal.SignerOutputStream;
 
 import java.util.Scanner;
+
 /**
 
  Read in 10 integers from the user. Place all 10 integers into an array in the order they were received.
@@ -15,3 +16,37 @@ import java.util.Scanner;
  Output can be on one line or many lines. However you like.
 
  */
+
+class HellYee {
+
+    public static void main(String[] args) {
+
+        Scanner s = new Scanner(System.in);
+
+        int[] arr = new int[10];
+
+        System.out.println();
+        System.out.println("Enter ten numbers and I'll print them out in a funny way.");
+
+
+        for (int i = 0; i < 10; i++){
+
+            System.out.print((i+1) + ": ");
+            arr[i] = s.nextInt();
+
+        }
+
+        for (int i = 1; i <= 9; i += 2){
+
+            System.out.print(arr[i] + ", ");
+        }
+
+//        System.out.println();
+
+        for (int i = 8; i >= 0; i -= 2)
+            System.out.print(arr[i] + ", ");
+    }
+
+
+
+}

@@ -10,4 +10,21 @@ package part_01;
 
 public class Exercise_10 {
 
+    public static void main(String[] args) {
+
+
+        double kph;
+        double mph;
+
+        double time = 30.5;
+        double distance = 12;
+
+        kph = (60/time)*distance;
+
+        mph = kph/1.6;
+
+        System.out.println();
+        System.out.println("Miles per hour: " + mph);
+
+    }
 }

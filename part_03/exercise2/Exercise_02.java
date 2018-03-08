@@ -1,4 +1,4 @@
-package part_03;
+package part_03.exercise2;
 
 /**
 
