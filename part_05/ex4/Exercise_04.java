@@ -1,4 +1,4 @@
-package part_05;
+package part_05.ex4;
 
 /**
  * Write two classes. Class_01 should have the main(). Class_02 must have 3 or more private variables. Class_02 must
@@ -8,3 +8,5 @@ package part_05;
  * within each instance of Class_02 to modify Class_02's private instance variables.
  *
  */
+
+

@@ -1,4 +1,4 @@
-package part_05;
+package part_05.ex3;
 
 /**
  * Write two classes. In Class_01 have a main method that creates on instance of Class_02. In Class_02, demonstrate

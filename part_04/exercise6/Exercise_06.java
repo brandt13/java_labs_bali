@@ -1,4 +1,4 @@
-package part_04;
+package part_04.exercise6;
 
 import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
 

@@ -1,9 +1,5 @@
-package part_04;
+package part_04.ex7;
 
-
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
-
-import java.util.Scanner;
 
 /**
  The complement of a queue is a stack. It uses first-in, last-out accesssing and is often likened to a stack of plates.

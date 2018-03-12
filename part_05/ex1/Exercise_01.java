@@ -1,4 +1,4 @@
-package part_05;
+package part_05.ex1;
 
 import java.util.ArrayList;
 
@@ -10,3 +10,5 @@ import java.util.ArrayList;
  * private instance variables. Use System.out.println at various points to demonstrate the flow of execution and
  * the varying state of each private variable. You may name these classes whatever you like.
  */
+
+

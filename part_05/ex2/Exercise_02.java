@@ -1,4 +1,4 @@
-package part_05;
+package part_05.ex2;
 
 import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
 
@@ -10,3 +10,4 @@ import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
  * flow of execution and the varying state of each private variable. You can name these classes whatever you want.
  *
  */
+
