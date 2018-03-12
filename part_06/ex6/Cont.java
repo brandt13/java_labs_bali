@@ -18,6 +18,8 @@ public class Cont {
         greet = priOb;
         greet.greeting();
 
+        // comment for adding part 6
+
 
     }
 
