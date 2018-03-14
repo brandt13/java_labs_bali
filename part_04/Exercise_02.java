@@ -12,13 +12,13 @@ class OhYeah {
 
     public static void main(String[] args) {
 
-        int arr[] = new int[2018];
+        int arr[] = new int[2017];
 
-        for (int i = 0; i <= 2017; i++){
+        for (int i = 0; i < 2017; i++){
             arr[i] = i;
         }
 
-        for (int i = 2017; i >= 1; i= i-2)
+        for (int i = arr.length-2; i >= 1; i= i-2)
             System.out.println(arr[i]);
 
 

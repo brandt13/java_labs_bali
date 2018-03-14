@@ -41,7 +41,6 @@ class HellYee {
             System.out.print(arr[i] + ", ");
         }
 
-//        System.out.println();
 
         for (int i = 8; i >= 0; i -= 2)
             System.out.print(arr[i] + ", ");
